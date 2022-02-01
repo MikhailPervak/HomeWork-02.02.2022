@@ -4,7 +4,7 @@ body {
     font-family: "Manrope", sans-serif;
 }
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, h5, p {
     margin: 0;
 }
 
@@ -30,7 +30,6 @@ h2 {
     justify-content: flex-end;
     position: relative;
 }
-
 
 .cards_japangirl, .cards_flower, .cards_aloe, .cards_blackgirl, .cards_coffe, .cards_leaves {
     position: relative;
