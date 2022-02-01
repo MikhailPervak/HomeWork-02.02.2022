@@ -1,0 +1,82 @@
+/* использованы стили документации https://github.com/rtplv/airbnb-css-ru */
+
+body {
+    font-family: "Manrope", sans-serif;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.cards_box {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: relative;
+}
+
+
+.cards_japangirl, .cards_flower, .cards_aloe, .cards_blackgirl, .cards_coffe, .cards_leaves {
+    position: relative;
+}
+
+.cards_japangirl {
+    margin-right: 30px;
+}
+
+.cards_aloe {
+    margin-right: 30px;
+}
+
+.cards_coffe {
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.cards_leaves {
+    align-self: flex-end;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.text {
+    position: absolute;
+    top: 32px;
+    left: 24px;
+}
+
+.text h4 {
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.text p {
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.center {
+    display: flex;
+    position: absolute;
+    top: 300px;
+    margin-top: 30px;
+}
